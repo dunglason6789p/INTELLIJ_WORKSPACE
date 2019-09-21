@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout size-full>
+   <vaadin-grid-layout width="240px" height="61px">
+    <row>
+     <column>
+      <vaadin-button plain-text>
+        Button 
+      </vaadin-button>
+     </column>
+     <column>
+      <vaadin-check-box-group data-item-type="java.lang.String">
+       <option item="Option1">Option 1</option>
+       <option item="Option2">Option 2</option>
+       <option item="Option3">Option 3</option>
+      </vaadin-check-box-group>
+     </column>
+     <column>
+      <vaadin-combo-box data-item-type="java.lang.String">
+       <option item="Option1">Option 1</option>
+       <option item="Option2">Option 2</option>
+       <option item="Option3">Option 3</option>
+      </vaadin-combo-box>
+     </column>
+    </row>
+    <row></row>
+    <row></row>
+   </vaadin-grid-layout>
+   <vaadin-button plain-text :right>
+     Button 
+   </vaadin-button>
+   <vaadin-text-field></vaadin-text-field>
+   <vaadin-text-area></vaadin-text-area>
+   <vaadin-native-button plain-text>
+     NativeButton 
+   </vaadin-native-button>
+   <vaadin-native-select data-item-type="java.lang.String" _id="nativeSelect">
+    <option item="Option1">Option 1</option>
+    <option item="Option2">Option 2</option>
+    <option item="Option3">Option 3</option>
+   </vaadin-native-select>
+   <vaadin-date-time-field></vaadin-date-time-field>
+   <vaadin-rich-text-area></vaadin-rich-text-area>
+  </vaadin-vertical-layout>
+ </body>
+</html>

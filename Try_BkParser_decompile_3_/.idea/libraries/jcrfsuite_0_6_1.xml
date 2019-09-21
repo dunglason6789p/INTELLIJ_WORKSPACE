@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jcrfsuite-0.6.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jcrfsuite-0.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/jcrfsuite-0.6.1.jar!/crfsuite-0.12" />
+    </SOURCES>
+  </library>
+</component>

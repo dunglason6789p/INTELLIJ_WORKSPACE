@@ -11,6 +11,8 @@ public class MainClass {
     public void test() {
         var student = new Student();
         student.setId(123);
+        //System.out.println(student.id);
+        //student.id = 3;
     }
 }
 
